@@ -15,7 +15,7 @@ print(response['Buckets'])
 
 ## Establece la conexion al servidor 
 
-app = Flask(_name_)
+app = Flask(__name__)
 @app.route("/")
 
 def index():
